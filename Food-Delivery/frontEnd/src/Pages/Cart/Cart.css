@@ -1,0 +1,141 @@
+/* cart.css */
+
+.cart {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-items {
+  width: 100%;
+}
+
+.cart-items-titles {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr auto;
+  align-items: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.cart-item-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr auto;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.cart-item-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.cart-item-item p {
+  margin: 0;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #e0e0e0;
+}
+/* cart.css */
+
+.cross {
+  cursor: pointer; /* Changes cursor to pointer when hovering */
+}
+
+.cross:hover {
+  color: red; /* Changes text color to red on hover */
+  transform: scale(1.2); /* Increases size of the element on hover */
+}
+/* cart.css */
+
+.cart-bottom {
+  background-color: white; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-total {
+  margin-bottom: 20px;
+}
+
+.cart-total p {
+  margin: 5px 0;
+}
+
+.car-total-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.proceed{
+  background-color: tomato; /* Geen background */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.proceed:hover {
+  background-color: rgb(240, 150, 128); /* Darker green background on hover */
+}
+
+.promo-code {
+  margin-top: 20px;
+}
+
+.promo-code p {
+  margin-bottom: 10px;
+}
+
+.promo-code-input {
+  display: flex;
+  align-items: center;
+}
+
+.promo-code-input input[type="text"] {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.promo-code-input button {
+  background-color: #007bff; /* Blue button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.promo-code-input button:hover {
+  background-color: #0056b3; /* Darker blue background on hover */
+}
+             
+/* Cart.css */
+
+button.abc {
+  background-color: black !important; /* Use !important to ensure it overrides other styles */
+  color: white !important;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.abc:hover {
+  background-color: #333 !important; /* Darker shade of black on hover */
+}

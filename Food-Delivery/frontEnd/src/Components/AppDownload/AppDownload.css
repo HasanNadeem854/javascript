@@ -1,0 +1,13 @@
+.Appdownload {
+    text-align: center; /* Center align the content */
+    margin-top: 50px; /* Adjust margin as needed */
+}
+
+.Appdownload h2 {
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+.Appdownload-store img {
+    width: 150px; /* Adjust the width of the app store icons */
+    margin: 0 20px; /* Add space between the icons */
+}
